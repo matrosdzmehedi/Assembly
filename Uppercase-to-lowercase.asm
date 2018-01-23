@@ -18,8 +18,6 @@ main proc
     mov ah,9
     int 21h
 
-    mov cx,26
-
     mov ah,1
     int 21h
 
@@ -31,8 +29,8 @@ main proc
     int 21h
 
 
-MOV AH,4CH
-int 21h
+    MOV AH,4CH
+    int 21h
 
 main endp
 
